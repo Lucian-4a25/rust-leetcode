@@ -1,6 +1,9 @@
+#![feature(slice_range)]
+
 #[allow(dead_code)]
 pub mod lru;
-
+#[allow(dead_code)]
+pub mod remove_duplicates;
 #[allow(dead_code)]
 pub mod reverse_binary_tree;
 
