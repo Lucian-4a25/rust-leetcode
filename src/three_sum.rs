@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-struct Solution;
+struct Solution {}
 
 impl Solution {
     pub fn three_sum_2(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
