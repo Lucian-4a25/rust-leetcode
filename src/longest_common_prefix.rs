@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    // This implementation should be optimzed
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         if strs.is_empty() {
             return Default::default();
@@ -26,14 +27,14 @@ impl Solution {
                     .unwrap_or(false)
                 {
                     // return the result
-                    return String::from_iter(res.into_iter());
+                    return res.into_iter().collect();
                 }
             }
 
             res.push(c);
         }
 
-        String::from_iter(res.into_iter())
+        res.into_iter().collect()
 
         // for char in chars  {
 

@@ -1,6 +1,8 @@
 #![feature(slice_range)]
 
 #[allow(dead_code)]
+pub mod length_of_longest_substring;
+#[allow(dead_code)]
 pub mod longest_common_prefix;
 #[allow(dead_code)]
 pub mod lru;
