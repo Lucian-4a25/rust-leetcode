@@ -14,6 +14,7 @@ pub mod remove_duplicates;
 pub mod reverse_binary_tree;
 #[allow(dead_code)]
 pub mod three_sum;
-
+#[allow(dead_code)]
+pub mod two_sum;
 // For: https://leetcode.cn/studyplan/top-interview-150/
 // 150 Leetcode classic interview questions
