@@ -9,6 +9,8 @@ pub mod longest_common_prefix;
 #[allow(dead_code)]
 pub mod lru;
 #[allow(dead_code)]
+pub mod min_window;
+#[allow(dead_code)]
 pub mod remove_duplicates;
 #[allow(dead_code)]
 pub mod reverse_binary_tree;
